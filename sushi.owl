@@ -1,0 +1,4694 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/86180/ontologies/2021/2/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/86180/ontologies/2021/2/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/86180/ontologies/2021/2/untitled-ontology-14"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AburiSalmon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aonori"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AromaticDuck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArënkhaCaviar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsahiSuperDry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aubergine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avocado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvocadoMaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvocadoNigiri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaoBurger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BarleyProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeefTataki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeefTeriyaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeetrootCuredSalmon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blossom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bonito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broccoli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brownie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabbage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#California"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cauliflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheesecake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenAvocado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenFriedRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenGyoza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenKatsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenKatsuCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenTeriyaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChickenYakisoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChilliOil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChilliSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChocolateBrownie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChocolateMochi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChocolatePot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CocaColaClassic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CokeZeroOrDietCoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookedFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorianderPesto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorianderSearedTuna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CosLettuce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreamCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crumb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrunchyCalifornia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cucumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CucumberMaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Custard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DessertIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DessertPlatter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dishes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DorayakiPancake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doughball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dragon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dumpling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edamame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EdamameIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElColectivoMalbec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FantaOrange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FizzyWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreshFruitPlate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FriedRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ganache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garlic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GarlicMayo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GekkeikanSake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ginger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ginza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlazedAubergine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gyoza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HakushikaGinjouSake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HarusameAubergine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoisinSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InariTaco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JanpaneseGreenTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JapaneseCheesecake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JapaneseFriedChicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KaisoSeaweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Katsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KatsuCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KickinSalmon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KoreanChilliSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KoreanRedPepperPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mayo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MisoIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedMakiPlate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mochi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mushroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewCawstonPress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewChickenCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewChickenKatsuBurger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewFirefly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewKoreanFriedChicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewPrawnGyoza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewShiitakeMushroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewSpicySeafood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewSushiSharers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewYokaiPaleAle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nigiri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NigiriPlatter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noodles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nori"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Octopus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PakChoi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pancake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PankoPrawn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parmesan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PetitPapillonRosé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pickle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PonzuSalsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PonzuSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PopcornShrimp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prawn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrawnCocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrawnKatsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrawnKatsuCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrawnStar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressedAppleJuice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressedOrangeJuice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pumpkin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpkinKatsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpkinKatsuCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurpleShiso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ramen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RamuneSoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaspberryCoulis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RawFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoastDuck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RollPlatters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salads"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salmon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonAndAvocado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonFriedRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonMaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonNigiri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonPonzuSalsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonSashimi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalmonSelection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SaltedCaramelSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sapporo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sashimi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SautéedShiitakeMushrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeaSalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SearedBeef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seaweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SesameSeeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShichimiPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShiroMiso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shrimp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleeAloe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmokyBonitoFlakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoftDrinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeeWahPinotGrigio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicinessDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicyChickenKatsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicyPepperCauliflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicyPepperSquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sprite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SrirachaMayo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SrirachaSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StillWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreetFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surimi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sushi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TakoyakiDoughballs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TangerineSalad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemakiHandRolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenderstemAndSesame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teriyaki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TofuKatsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TofuKatsuCurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TokomaruBaySauvignonBlanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TonkatsuSauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truffle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunaMayo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaporettoProsecco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetableFriedRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetableGyoza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetableYakisoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinegar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WakameSeaweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Watermelon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YOFries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YORoll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YOTripleFilteredWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yakisoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yasai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YuzuAndPearJuice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOtherDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpiciness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AburiSalmon"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AburiSalmon"/>
+        <Class IRI="#NigiriPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AburiSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#GarlicMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AburiSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PonzuSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AburiSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aonori"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AromaticDuck"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AromaticDuck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AromaticDuck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#HoisinSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AromaticDuck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AromaticDuck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#RoastDuck"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArënkhaCaviar"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsahiSuperDry"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aubergine"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <Class IRI="#MixedMakiPlate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoMaki"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <Class IRI="#NigiriPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvocadoNigiri"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaoBurger"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BarleyProduct"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beef"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTataki"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTataki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Beef"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTataki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CorianderPesto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTataki"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <Class IRI="#Teriyaki"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Beef"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChilliSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Garlic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Soy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefTeriyaki"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeetrootCuredSalmon"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeetrootCuredSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Lemon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeetrootCuredSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeetrootCuredSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#WakameSeaweed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PrawnKatsu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PurpleShiso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blossom"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bonito"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broth"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brownie"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabbage"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <Class IRI="#TemakiHandRolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#California"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Surimi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrot"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cauliflower"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheesecake"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <Class IRI="#Salads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CorianderPesto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Soy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#TangerineSalad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <Class IRI="#RollPlatters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CosLettuce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#GarlicMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Parmesan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenFriedRice"/>
+        <Class IRI="#FriedRice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenFriedRice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenFriedRice"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenGyoza"/>
+        <Class IRI="#Gyoza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vinegar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenKatsu"/>
+        <Class IRI="#Katsu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenKatsu"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenKatsuCurry"/>
+        <Class IRI="#KatsuCurry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Crumb"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenTeriyaki"/>
+        <Class IRI="#Teriyaki"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenTeriyaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenYakisoba"/>
+        <Class IRI="#Yakisoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChickenYakisoba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChilliOil"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChilliSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chives"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateBrownie"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateBrownie"/>
+        <Class IRI="#DessertPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateBrownie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateBrownie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SaltedCaramelSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateMochi"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateMochi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateMochi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mochi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateMochi"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolatePot"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolatePot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolatePot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Miso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolatePot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolatePot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CocaColaClassic"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CokeZeroOrDietCoke"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CookedFood"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderPesto"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderSearedTuna"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderSearedTuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CorianderPesto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderSearedTuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Lemon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderSearedTuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorianderSearedTuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#WakameSeaweed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CosLettuce"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreamCheese"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crumb"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <Class IRI="#RollPlatters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Surimi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrunchyCalifornia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumber"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CucumberMaki"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CucumberMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CucumberMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CucumberMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CucumberMaki"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curry"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Custard"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dessert"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DessertIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DessertPlatter"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <Class IRI="#DessertPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Custard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Pancake"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#RaspberryCoulis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorayakiPancake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doughball"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ShichimiPowder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drink"/>
+        <Class IRI="#Dishes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dumpling"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChilliOil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SrirachaSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamite"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edamame"/>
+        <Class IRI="#Salads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edamame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#EdamameIngredient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edamame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edamame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SeaSalt"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edamame"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EdamameIngredient"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElColectivoMalbec"/>
+        <Class IRI="#Red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FantaOrange"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FizzyWater"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Dishes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Grape"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Pineapple"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Strawberry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Watermelon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshFruitPlate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriedRice"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriedRice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Rice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fries"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ganache"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garlic"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GarlicMayo"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GekkeikanSake"/>
+        <Class IRI="#Sake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginger"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ArënkhaCaviar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chives"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CreamCheese"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SrirachaMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <Class IRI="#NigiriPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Aubergine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazedAubergine"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grape"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gyoza"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Dumpling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HakushikaGinjouSake"/>
+        <Class IRI="#Sake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <Class IRI="#Salads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Aubergine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Garlic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Ginger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Soy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarusameAubergine"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoisinSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot"/>
+        <Class IRI="#SpicinessDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inari"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PonzuSalsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SrirachaMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tofu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InariTaco"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JanpaneseGreenTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseCheesecake"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseCheesecake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cheesecake"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseCheesecake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SaltedCaramelSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseCheesecake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Soy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <Class IRI="#Salads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Carrot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Edamame"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Miso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Seaweed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KaisoSeaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Katsu"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatsuCurry"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Curry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Pickle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Rice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <Class IRI="#RollPlatters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CreamCheese"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#KoreanRedPepperPowder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SrirachaMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KickinSalmon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Medium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KoreanChilliSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KoreanRedPepperPowder"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemon"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masago"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mayo"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium"/>
+        <Class IRI="#SpicinessDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mild"/>
+        <Class IRI="#SpicinessDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miso"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#MisoIngredient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miso"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MisoIngredient"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedMakiPlate"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mochi"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mushroom"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewCawstonPress"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenCurry"/>
+        <Class IRI="#Ramen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Broth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PakChoi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#BaoBurger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChickenKatsu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CosLettuce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#BaoBurger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChickenTeriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewFirefly"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewKoreanFriedChicken"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewKoreanFriedChicken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chicken"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewKoreanFriedChicken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#KoreanChilliSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewKoreanFriedChicken"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Medium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#BaoBurger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mushroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewPrawnGyoza"/>
+        <Class IRI="#Gyoza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewPrawnGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Prawn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewPrawnGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewPrawnGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vinegar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <Class IRI="#Ramen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Broth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mushroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PakChoi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tofu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <Class IRI="#Ramen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Broth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Prawn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Squid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSpicySeafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Medium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Garlic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Ginger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PakChoi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Soy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewSushiSharers"/>
+        <Class IRI="#Sushi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewYokaiPaleAle"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nigiri"/>
+        <Class IRI="#Sushi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NigiriPlatter"/>
+        <Class IRI="#NewSushiSharers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noodles"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nori"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Octopus"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherDescription"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PakChoi"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pancake"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <Class IRI="#NigiriPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Crumb"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Prawn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#TonkatsuSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PankoPrawn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parmesan"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PetitPapillonRosé"/>
+        <Class IRI="#Rose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pickle"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pineapple"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PonzuSalsa"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PonzuSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopcornShrimp"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopcornShrimp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChilliSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopcornShrimp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ShiroMiso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopcornShrimp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Shrimp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prawn"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnCocktail"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsu"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsu"/>
+        <Class IRI="#Katsu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsuCurry"/>
+        <Class IRI="#KatsuCurry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Crumb"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Prawn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnKatsuCurry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnStar"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnStar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnStar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnStar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PrawnCocktail"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnStar"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressedAppleJuice"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressedOrangeJuice"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pumpkin"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsu"/>
+        <Class IRI="#Katsu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Pumpkin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsu"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsuCurry"/>
+        <Class IRI="#KatsuCurry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Pumpkin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpkinKatsuCurry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurpleShiso"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ramen"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ramen"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Noodles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RamuneSoda"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaspberryCoulis"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawFood"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rice"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoastDuck"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RollPlatters"/>
+        <Class IRI="#NewSushiSharers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rolls"/>
+        <Class IRI="#Sushi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rose"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sake"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salads"/>
+        <Class IRI="#RawFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salmon"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <Class IRI="#TemakiHandRolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonAndAvocado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonFriedRice"/>
+        <Class IRI="#FriedRice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonFriedRice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonFriedRice"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonMaki"/>
+        <Class IRI="#MixedMakiPlate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonMaki"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonMaki"/>
+        <Class IRI="#SalmonSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonMaki"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonNigiri"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonNigiri"/>
+        <Class IRI="#SalmonSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonNigiri"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonPonzuSalsa"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonPonzuSalsa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#PonzuSalsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonPonzuSalsa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonSashimi"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonSashimi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Lemon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonSashimi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonSashimi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#WakameSeaweed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalmonSelection"/>
+        <Class IRI="#NewSushiSharers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltedCaramelSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sapporo"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sashimi"/>
+        <Class IRI="#RawFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sauce"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SautéedShiitakeMushrooms"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeaSalt"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <Class IRI="#Nigiri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <Class IRI="#NigiriPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Beef"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ShichimiPowder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearedBeef"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SesameSeeds"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShichimiPowder"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShiroMiso"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shrimp"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleeAloe"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmokyBonitoFlakes"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoftDrinks"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoftDrinks"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soy"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeeWahPinotGrigio"/>
+        <Class IRI="#White"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeeWahPinotGrigio"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicinessDescription"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <Class IRI="#RollPlatters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChickenKatsu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CosLettuce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ShichimiPowder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#TonkatsuSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Medium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cauliflower"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChilliSauce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperSquid"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperSquid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#ChilliOil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperSquid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperSquid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Squid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyPepperSquid"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sprite"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squid"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SrirachaMayo"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SrirachaSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StillWater"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+        <Class IRI="#Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+        <Class IRI="#DessertPlatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mochi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Strawberry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StreetFood"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surimi"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sushi"/>
+        <Class IRI="#RawFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sushi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Rice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Bonito"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Doughball"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Octopus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TangerineSalad"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemakiHandRolls"/>
+        <Class IRI="#Sushi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenderstemAndSesame"/>
+        <Class IRI="#Salads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenderstemAndSesame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Broccoli"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenderstemAndSesame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenderstemAndSesame"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teriyaki"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teriyaki"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tofu"/>
+        <Class IRI="#BarleyProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsu"/>
+        <Class IRI="#Katsu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tofu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsu"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsuCurry"/>
+        <Class IRI="#KatsuCurry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TofuKatsuCurry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tofu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TokomaruBaySauvignonBlanc"/>
+        <Class IRI="#White"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TonkatsuSauce"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truffle"/>
+        <Class IRI="#DessertIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuna"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuna"/>
+        <Class IRI="#Sashimi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Lemon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#WakameSeaweed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chives"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#GarlicMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Onion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaMayo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Tuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaporettoProsecco"/>
+        <Class IRI="#Sparkling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegan"/>
+        <Class IRI="#OtherDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableFriedRice"/>
+        <Class IRI="#FriedRice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableFriedRice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableFriedRice"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableFriedRice"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSpiciness"/>
+            <Class IRI="#Mild"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <Class IRI="#Gyoza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cabbage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Carrot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Edamame"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vinegar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableGyoza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableYakisoba"/>
+        <Class IRI="#Yakisoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableYakisoba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetarian"/>
+        <Class IRI="#OtherDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinegar"/>
+        <Class IRI="#Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WakameSeaweed"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOFries"/>
+        <Class IRI="#StreetFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOFries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Aonori"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOFries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Fries"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOFries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SesameSeeds"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOFries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#SrirachaMayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <Class IRI="#SalmonSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Masago"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YORoll"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Salmon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YOTripleFilteredWater"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yakisoba"/>
+        <Class IRI="#CookedFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yakisoba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Noodles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <Class IRI="#RollPlatters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <Class IRI="#Rolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <Class IRI="#TemakiHandRolls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Avocado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Carrot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#CosLettuce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Cucumber"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Inari"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Mayo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Teriyaki"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yasai"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOtherDescription"/>
+            <Class IRI="#Vegan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YuzuAndPearJuice"/>
+        <Class IRI="#SoftDrinks"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AsahiSuperDry"/>
+        <Class IRI="#NewYokaiPaleAle"/>
+        <Class IRI="#Sapporo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BeefTeriyaki"/>
+        <Class IRI="#ChickenTeriyaki"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Sake"/>
+        <Class IRI="#SoftDrinks"/>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Wine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#California"/>
+        <Class IRI="#SalmonAndAvocado"/>
+        <Class IRI="#Yasai"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenAndTangerineSalad"/>
+        <Class IRI="#Edamame"/>
+        <Class IRI="#HarusameAubergine"/>
+        <Class IRI="#KaisoSeaweed"/>
+        <Class IRI="#TenderstemAndSesame"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenAvocado"/>
+        <Class IRI="#CrunchyCalifornia"/>
+        <Class IRI="#KickinSalmon"/>
+        <Class IRI="#SpicyChickenKatsu"/>
+        <Class IRI="#Yasai"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenFriedRice"/>
+        <Class IRI="#SalmonFriedRice"/>
+        <Class IRI="#VegetableFriedRice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenGyoza"/>
+        <Class IRI="#NewPrawnGyoza"/>
+        <Class IRI="#VegetableGyoza"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenKatsu"/>
+        <Class IRI="#PrawnKatsu"/>
+        <Class IRI="#PumpkinKatsu"/>
+        <Class IRI="#TofuKatsu"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenKatsuCurry"/>
+        <Class IRI="#PrawnKatsuCurry"/>
+        <Class IRI="#PumpkinKatsuCurry"/>
+        <Class IRI="#TofuKatsuCurry"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChickenYakisoba"/>
+        <Class IRI="#VegetableYakisoba"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChocolateBrownie"/>
+        <Class IRI="#DorayakiPancake"/>
+        <Class IRI="#StrawberryCheesecakeMochi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CocaColaClassic"/>
+        <Class IRI="#CokeZeroOrDietCoke"/>
+        <Class IRI="#FantaOrange"/>
+        <Class IRI="#FizzyWater"/>
+        <Class IRI="#NewCawstonPress"/>
+        <Class IRI="#NewFirefly"/>
+        <Class IRI="#PressedAppleJuice"/>
+        <Class IRI="#PressedOrangeJuice"/>
+        <Class IRI="#RamuneSoda"/>
+        <Class IRI="#SimpleeAloe"/>
+        <Class IRI="#Sprite"/>
+        <Class IRI="#StillWater"/>
+        <Class IRI="#YOTripleFilteredWater"/>
+        <Class IRI="#YuzuAndPearJuice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Drink"/>
+        <Class IRI="#Food"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GekkeikanSake"/>
+        <Class IRI="#HakushikaGinjouSake"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hot"/>
+        <Class IRI="#Medium"/>
+        <Class IRI="#Mild"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <Class IRI="#NewChickenKatsuBurger"/>
+        <Class IRI="#NewChickenTeriyakiBurger"/>
+        <Class IRI="#NewKoreanFriedChicken"/>
+        <Class IRI="#NewMushroomTeriyakiBurger"/>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <Class IRI="#PopcornShrimp"/>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <Class IRI="#SpicyPepperSquid"/>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <Class IRI="#YOFries"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JapaneseFriedChicken"/>
+        <Class IRI="#NewStirFriedPakChoiAndGarlic"/>
+        <Class IRI="#PopcornShrimp"/>
+        <Class IRI="#SpicyPepperCauliflower"/>
+        <Class IRI="#SpicyPepperSquid"/>
+        <Class IRI="#TakoyakiDoughballs"/>
+        <Class IRI="#YOFries"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NewChickenCurry"/>
+        <Class IRI="#NewShiitakeMushroom"/>
+        <Class IRI="#NewSpicySeafood"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NigiriPlatter"/>
+        <Class IRI="#RollPlatters"/>
+        <Class IRI="#SalmonSelection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Red"/>
+        <Class IRI="#Rose"/>
+        <Class IRI="#Sparkling"/>
+        <Class IRI="#White"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Salads"/>
+        <Class IRI="#Sashimi"/>
+        <Class IRI="#Sushi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SpeeWahPinotGrigio"/>
+        <Class IRI="#TokomaruBaySauvignonBlanc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Vegan"/>
+        <Class IRI="#Vegetarian"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOtherDescription"/>
+        <Class IRI="#Drink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOtherDescription"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <Class IRI="#Drink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOtherDescription"/>
+        <Class IRI="#OtherDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpiciness"/>
+        <Class IRI="#SpicinessDescription"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AburiSalmon</IRI>
+        <Literal xml:lang="en">Salmon topped with garlic 
+mayo &amp; ponzu sauce, lightly 
+seared with a blow torch 
+for a delicious finish. 
+113 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AromaticDuck</IRI>
+        <Literal xml:lang="en">Aromatic roast duck, hoisin 
+sauce, cucumber &amp; spring 
+onion, rolled in rice paper. 
+218 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AsahiSuperDry</IRI>
+        <Literal xml:lang="en">Super refreshing, super dry. 500ml £5.75
+Taste it to understand it. 
+(Japan) 5.2% ab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvocadoMaki</IRI>
+        <Literal xml:lang="en">Avocado &amp; vegan mayo wrapped 
+in a nori roll. 204 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvocadoNigiri</IRI>
+        <Literal xml:lang="en">Avocado topped rice with 
+a nori band &amp; a touch of 
+vegan mayo. 110 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeefTataki</IRI>
+        <Literal xml:lang="en">Pepper-seared beef served rare 
+with a tangy coriander pesto.
+96 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeefTeriyaki</IRI>
+        <Literal xml:lang="en">Crispy slices of beef in a tempting sticky garlic &amp; 
+soy glaze with a fresh chilli kick. 
+329 kcal / 940 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeetrootCuredSalmon</IRI>
+        <Literal xml:lang="en">Dazzling beetroot cured 
+slices of salmon. Served 
+with wakame seaweed 
+&amp; lemon. 111 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blossom</IRI>
+        <Literal xml:lang="en">Prawn katsu &amp; avocado, 
+rolled in purple shiso &amp; 
+topped with spicy tuna on
+a touch of teriyaki sauce. 
+209 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChickenAndTangerineSalad</IRI>
+        <Literal xml:lang="en">Sweet &amp; spicy glazed chicken 
+&amp; tangerine salad, served 
+with coriander &amp; a maple 
+soy dressing. 148 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChickenAvocado</IRI>
+        <Literal xml:lang="en">Chicken, cos lettuce &amp; avocado,
+rolled in crispy onions.
+Topped with garlic mayo
+&amp; parmesan. 215 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChickenGyoza</IRI>
+        <Literal xml:lang="en">Chicken &amp; vegetable
+filled dumplings. 
+Served with soy vinegar. 
+140 kcal / 206 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChickenKatsuCurry</IRI>
+        <Literal xml:lang="en">Succulent chicken in a crispy Japanese panko 
+crumb with mild curry sauce, pickles &amp; 
+steamed rice. 522 kcal / 936 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChickenTeriyaki</IRI>
+        <Literal xml:lang="en">Succulent chicken thigh glazed in a sweet, sticky 
+teriyaki glaze. 272 kcal / 837 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChocolateBrownie</IRI>
+        <Literal xml:lang="en">Indulgent chocolate brownie 
+topped with a salted 
+caramel sauce. 363 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChocolateMochi</IRI>
+        <Literal xml:lang="en">Chocolate truffle ganache in 
+a light mochi rice casing. 
+A must try! 236 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChocolatePot</IRI>
+        <Literal xml:lang="en">A delicious chocolate pot 
+with a hint of miso 
+&amp; vanilla. 246 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CorianderSearedTuna</IRI>
+        <Literal xml:lang="en">Delicious slices of tuna, 
+rolled in coriander &amp; 
+quickly seared. Served 
+with wakame seaweed 
+&amp; lemon. 94 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CrunchyCalifornia</IRI>
+        <Literal xml:lang="en">Surimi &amp; avocado roll, 
+topped with mayo, teriyaki 
+&amp; crunchy onion. 285 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CucumberMaki</IRI>
+        <Literal xml:lang="en">Crunchy cucumber with 
+toasted sesame seeds 
+in a nori roll. 150 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dishes</IRI>
+        <Literal>Problem: If I set Food is Disjoint With Drink (common sense), Reasoner HermiT would infer owl:Nothing. If not, Reasoner&apos;s result would be good.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DorayakiPancake</IRI>
+        <Literal xml:lang="en">Japanese pancakes with 
+a light custard centre, 
+served with a tangy 
+raspberry coulis. 130 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dragon</IRI>
+        <Literal xml:lang="en">California roll topped with 
+fresh salmon, shichimi 
+powder &amp; spring onion. 
+212 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dynamite</IRI>
+        <Literal xml:lang="en">Salmon, chilli oil &amp; avocado, 
+rolled in crispy onions. 
+Topped with sriracha 
+sauce &amp; mayo. 200 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edamame</IRI>
+        <Literal xml:lang="en">Succulent edamame in 
+their pods. Sprinkled with 
+sea salt &amp; spring onion. 
+135 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FreshFruitPlate</IRI>
+        <Literal xml:lang="en">A refreshing mix of grapes, 
+watermelon, pineapple 
+&amp; strawberries. 61 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FriedRice</IRI>
+        <Literal xml:lang="en">Seasoned sushi rice stir-fried with fresh vegetables 
+&amp; shichimi chilli powder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GekkeikanSake</IRI>
+        <Literal xml:lang="en">Mild &amp; semi sweet 
+(served warm). 
+Available at selected 
+restaurants. 14.6% abv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ginza</IRI>
+        <Literal xml:lang="en">Salmon, cream cheese, 
+cucumber, chives &amp; arënkha 
+caviar. Topped with teriyaki, 
+sriracha &amp; mayo. 215 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GlazedAubergine</IRI>
+        <Literal xml:lang="en">Teriyaki glazed aubergine 
+on sushi rice, wrapped with 
+a nori band. 74 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HakushikaGinjouSake</IRI>
+        <Literal xml:lang="en">Gentle &amp; fruity sake
+(Japan) 13.5% abv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HarusameAubergine</IRI>
+        <Literal xml:lang="en">Fried slices of aubergine 
+in a garlic, ginger, sesame 
+&amp; soy dressing. 108 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InariTaco</IRI>
+        <Literal xml:lang="en">Golden tofu pockets 
+filled with rice, avocado, 
+ponzu salsa &amp; vegan 
+sriracha mayo. 170 kcal
+available without topping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JapaneseCheesecake</IRI>
+        <Literal xml:lang="en">Japanese soufflé cheesecake, 
+topped with a salted 
+caramel sauce. 195 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JapaneseFriedChicken</IRI>
+        <Literal xml:lang="en">Crunchy fried chicken breast, 
+marinated in soy &amp; sake 
+served with mayo. 382 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KaisoSeaweed</IRI>
+        <Literal xml:lang="en">Marinated mixed seaweed, 
+edamame &amp; carrot in a 
+su-miso dressing. 175 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Katsu</IRI>
+        <Literal xml:lang="en">Your choice of succulent chicken, prawn, pumpkin 
+or crispy tofu in Japanese panko, drizzled with 
+fruity tonkatsu sauce.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KickinSalmon</IRI>
+        <Literal xml:lang="en">Salmon, avocado, cream 
+cheese &amp; cucumber rolled in 
+Korean red pepper powder. 
+Topped with crispy onions 
+&amp; sriracha mayo. 212 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MixedMakiPlate</IRI>
+        <Literal xml:lang="en">The best of both worlds, 
+3 salmon maki &amp; 
+3 avocado maki. 
+196 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewCawstonPress</IRI>
+        <Literal xml:lang="en">Sparkling rhubarb 
+Ginger beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewChickenCurry</IRI>
+        <Literal xml:lang="en">Japanese fried chicken &amp; noodles in a delicious 
+curry broth. Topped with pak choi &amp; pickled onions. 
+417 kcal / 758 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewChickenKatsuBurger</IRI>
+        <Literal xml:lang="en">Our favourite chicken katsu 
+served with garlic mayo &amp; 
+cos lettuce, in a steamed 
+bao burger bun. 477 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewChickenTeriyakiBurger</IRI>
+        <Literal xml:lang="en">Chicken teriyaki served 
+with cucumber &amp; pickled 
+red onion, in a steamed 
+bao burger bun. 286 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewFirefly</IRI>
+        <Literal xml:lang="en">A refreshing blend of fruit juice
+&amp; still water with active botanicals
+Peach &amp; green tea 
+Kiwi, lime &amp; mint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewKoreanFriedChicken</IRI>
+        <Literal xml:lang="en">Fried chicken tossed in a 
+tasty sweet &amp; spicy Korean 
+chilli sauce. 386 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewMushroomTeriyakiBurger</IRI>
+        <Literal xml:lang="en">Braised slices of shiitake 
+mushroom in teriyaki sauce, 
+served with cucumber &amp; 
+pickled red onion, in a 
+steamed bao burger. 228 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewPrawnGyoza</IRI>
+        <Literal xml:lang="en">Dumplings packed with
+tasty chunks of prawn 
+&amp; vegetables. Served 
+with soy vinegar. 
+148 kcal / 220 kca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewShiitakeMushroom</IRI>
+        <Literal xml:lang="en">Fresh noodles in a vegetable broth with sautéed 
+shiitake mushrooms, tofu &amp; pak choi. Topped with 
+pickled onions. 225 kcal / 377 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewSpicySeafood</IRI>
+        <Literal xml:lang="en">Prawns, salmon, squid &amp; vegetables in a hot &amp; 
+spicy kimchi broth served with fresh noodles.
+269 kcal / 466 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewStirFriedPakChoiAndGarlic</IRI>
+        <Literal xml:lang="en">Stir-fried baby pak choi, 
+with garlic, ginger, soy &amp; 
+sesame oil. 86 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NewYokaiPaleAle</IRI>
+        <Literal xml:lang="en">From the wild beer co.,
+a light Japanese inspired
+beer with yuzu
+(UK) 4.5% abv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NigiriPlatter</IRI>
+        <Literal xml:lang="en">Enjoy a platter of one of each of our favourite 
+nigiris: salmon, seared beef, glazed aubergine, 
+avocado, panko prawn &amp; an aburi salmon nigiri.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PankoPrawn</IRI>
+        <Literal xml:lang="en">Rice topped with delicious 
+butterflied prawns in a 
+crispy crumb, served with 
+tonkatsu sauce. 121 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PopcornShrimp</IRI>
+        <Literal xml:lang="en">Tempura shrimp drizzled 
+with a sweet shiro miso 
+&amp; chilli sauce. 355 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrawnKatsuCurry</IRI>
+        <Literal xml:lang="en">Succulent prawns in a panko crumb with mild 
+curry sauce, pickles &amp; steamed rice. 
+432 kcal / 757 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrawnStar</IRI>
+        <Literal xml:lang="en">An avocado roll in crispy 
+panko coated nori, topped 
+with a spicy prawn cocktail. 
+240 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PumpkinKatsuCurry</IRI>
+        <Literal xml:lang="en">Naturally sweet, crispy bites of Japanese 
+pumpkin with mild curry sauce, pickles, 
+spring onion &amp; steamed rice. 434 kcal / 789 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RamuneSoda</IRI>
+        <Literal xml:lang="en">Japan’s oldest &amp; most 
+popular soft drink, also 
+known as ‘marble soda’</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RollPlatters</IRI>
+        <Literal xml:lang="en">9 pieces of your favourite roll. Great to share!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalmonMaki</IRI>
+        <Literal xml:lang="en">Fresh salmon wrapped in 
+a nori roll. 189 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalmonNigiri</IRI>
+        <Literal xml:lang="en">Fresh, hand cut salmon
+on sushi rice. Try it with
+wasabi &amp; soy sauce!
+99 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalmonPonzuSalsa</IRI>
+        <Literal xml:lang="en">Thinly sliced salmon, 
+topped with salsa &amp; a zingy 
+ponzu dressing. 104 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalmonSashimi</IRI>
+        <Literal xml:lang="en">Our freshest cuts of thick-sliced 
+salmon, with wakame 
+seaweed &amp; lemon. 113 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalmonSelection</IRI>
+        <Literal xml:lang="en">Indulge in a salmon platter made up of 
+4 salmon maki, 4 salmon nigiri, 2 YO! rolls 
+&amp; 4 slices of thick cut salmon sashimi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sapporo</IRI>
+        <Literal xml:lang="en">Large can. Premium beer
+(Japan) 5% abv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SearedBeef</IRI>
+        <Literal xml:lang="en">Seared beef on sushi rice,
+topped with mayo &amp;
+7-chilli shichimi powder
+for a kick. 108 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SimpleeAloe</IRI>
+        <Literal xml:lang="en">Aloe vera juice with real aloe bits. Low sugar, low calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpicyChickenKatsu</IRI>
+        <Literal xml:lang="en">Delicious chicken katsu 
+&amp; lettuce, rolled in shichimi 
+powder &amp; topped with 
+tonkatsu sauce. 145 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpicyPepperCauliflower</IRI>
+        <Literal xml:lang="en">Cauliflower marinated in a 
+light spice &amp; fried until crisp. 
+Topped with red chilli &amp; 
+spring onions. 146 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpicyPepperSquid</IRI>
+        <Literal xml:lang="en">Spicy marinated squid, fried 
+until crisp &amp; garnished with 
+red chilli &amp; spring onions. 
+207 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StrawberryCheesecakeMochi</IRI>
+        <Literal xml:lang="en">Bites of creamy strawberry 
+cheesecake, in a thin 
+sweet rice casing. 
+188 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TakoyakiDoughballs</IRI>
+        <Literal xml:lang="en">Lightly battered doughballs 
+with octopus, topped with 
+mayo, bonito &amp; lots more. 
+Osaka’s no.1 street food! 
+276 kca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TenderstemAndSesame</IRI>
+        <Literal xml:lang="en">Steamed tenderstem broccoli, 
+served on a rich sesame
+sauce. 135 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TofuKatsuCurry</IRI>
+        <Literal xml:lang="en">Crispy tofu with mild curry sauce, pickles,
+spring onion &amp; steamed rice. 451 kcal / 794 kca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tuna</IRI>
+        <Literal xml:lang="en">Thick cut slices of yellowfin 
+tuna, with wakame seaweed
+&amp; lemon. 86 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunaMayo</IRI>
+        <Literal xml:lang="en">Poached yellowfin tuna with 
+cucumber, red onion &amp;
+garlic mayo, rolled in chives.
+A classic dish with a 
+YO! twist! 127 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VegetableGyoza</IRI>
+        <Literal xml:lang="en">Spinach dumplings filled
+with cabbage, carrots, 
+edamame &amp; more veggies. 
+Served with soy vinegar.
+132 kcal / 193 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YOFries</IRI>
+        <Literal xml:lang="en">Japanese style fries coated 
+in sriracha mayo and sprinkled 
+with sesame, aonori &amp; 
+smoky bonito flakes.
+400 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YORoll</IRI>
+        <Literal xml:lang="en">Our signature roll! Fresh salmon, 
+avocado &amp; mayo, rolled in 
+orange masago. 163 kcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yakisoba</IRI>
+        <Literal xml:lang="en">Fresh yakisoba noodles stir-fried in a tangy sauce 
+served with crunchy vegetables.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yasai</IRI>
+        <Literal xml:lang="en">Inari, avocado, cucumber, 
+cos lettuce &amp; carrot roll, 
+topped with teriyaki &amp;
+vegan mayo. 170 kcal</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
